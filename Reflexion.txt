@@ -1,0 +1,11 @@
+Reflexion de la Actividad Individual 1
+
+En este ejercicio utilice la clase Estudiante para guardar el nombre, la matricula y la calificacion. En Main cree un objeto de esa clase y use sus metodos para darle valores y consultar su promedio.
+
+La comunicacion mediante mensajes se observa cuando Main llama a setNombre(), setMatricula(), setCalificacion(), calcularPromedio() y mostrarInformacion(). Asi cada clase tiene una funcion clara y no es necesario mezclar todo el codigo.
+
+El encapsulamiento lo aplique al declarar los atributos privados. Para modificarlos se deben utilizar los setters, que revisan que los datos sean validos. Esto ayuda a evitar errores y hace mas sencillo mantener el programa.
+
+Estos principios son importantes en Ingenieria de Datos e Inteligencia Artificial porque se trabaja con mucha informacion y conviene tener el codigo organizado. De esta manera se pueden agregar nuevas funciones o cambiar validaciones sin modificar todo el sistema.
+
+Nota: Como el ejercicio solicita una sola calificacion, el metodo calcularPromedio() devuelve esa misma calificacion.
